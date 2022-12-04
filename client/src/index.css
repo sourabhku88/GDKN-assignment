@@ -1,0 +1,32 @@
+.leftside {
+  width: 35vw;
+}
+
+.customerBox {
+  align-items: center;
+  height: 11vh;
+  cursor: pointer;
+}
+
+.customerBox .image img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.rightBox .headerBox .img img {
+  width: 100px;
+}
+
+.search input {
+  width: 15rem;
+  border: 0;
+  outline: 0;
+}
+
+.customer_list {
+  height: 40rem;
+  overflow-y: scroll;
+}
+.customer_list::-webkit-scrollbar {
+  display: none;
+}
